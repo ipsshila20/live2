@@ -1,0 +1,58 @@
+body{
+    height: auto;
+    width: 100%;
+}
+.main{
+    position: relative;
+    display: flex;
+}
+.form{
+    background-image: url(kalahari.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    margin-left: 700px;
+   
+    border: 1px solid;
+}
+.input{
+    margin-top: 70px;
+    margin-left: 200px;
+    line-height: 40px;
+    /* line-height: ; */
+}
+.nav{
+    display: flex;
+}
+.opt{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    margin-left: 100px;
+}
+.box{
+    height: 30px;
+    width: 120px;
+    border: 2px solid black ;
+    border-radius: 20px;
+    text-align: center;
+    /* border: 10px; */
+    margin-top: 30px;
+    
+}
+ul{
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    height: 100px;
+    margin-top: 30px;
+}
+.video{
+    height: 300px;
+    width: 600px;
+    border: 1px solid;
+    margin-top: 400px;
+    margin-left: 100px;
+}
